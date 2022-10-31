@@ -1,0 +1,86 @@
+221<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:background="#A48B65"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:fontFamily="@font/paprika"
+                android:layout_marginLeft="35dp"
+                android:textColor="#240202"
+                android:textSize="30dp"
+                android:text="WAAClothes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:fontFamily="@font/paprika"
+                android:layout_marginLeft="23dp"
+                android:textColor="#240202"
+                android:textSize="28dp"
+                android:text="Pose With Meee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.Toolbar
+        android:background="#A48B65"
+        android:layout_width="match_parent"
+        android:layout_height="115dp">
+
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+
+        <LinearLayout
+            android:background="#856F36"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                 android:background="@drawable/search"
+                 android:layout_width="40dp"
+                 android:layout_height="40dp"/>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:background="@drawable/ic_baseline_menu_24"
+                android:layout_width="40dp"
+                android:layout_height="40dp"/>
+            <Button
+                android:background="@drawable/keranjang"
+                android:layout_width="40dp"
+                android:layout_height="40dp"/>
+
+        </LinearLayout>
+
+
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:background="@drawable/bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
